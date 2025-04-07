@@ -146,7 +146,7 @@ export default function SignUp() {
               onBlur={formik.handleBlur}
             />
             {formik.errors.phone && formik.touched.phone && (
-              <p className="text-red-600 mt-1 text-sm">{formik.errors.phone}</p>
+              <p className="text-red-600 mt-1 text-sm ">{formik.errors.phone}</p>
             )}
           </div>
 
