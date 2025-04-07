@@ -6,7 +6,7 @@ import { CartContext } from '../../Context/Cart.context';
 import ReactImageGallery from 'react-image-gallery';
 import {Swiper, SwiperSlide } from 'swiper/react';
 import ProductCard from '../../components/ProductCard/ProductCard';
-import "Swiper/css";
+import 'swiper/css';
 
 export default function ProductDetails() {
   const [ProductDetails, setProductDetails] = useState(null);
